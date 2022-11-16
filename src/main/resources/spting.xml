@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Language" class="Dz.XmlPart.Belarusian" scope="prototype">
+        <property name="message" value="Прывiтанне"/>
+    </bean>
+    <bean id ="Language1" class="Dz.XmlPart.English" scope="prototype">
+        <property name="message" value="Hello"/>
+    </bean>
+    <bean id ="Language2" class="Dz.XmlPart.Russian" scope="prototype">
+        <property name="message" value="Привет"/>
+    </bean>
+
+</beans>
